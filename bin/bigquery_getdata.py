@@ -30,7 +30,8 @@ def get_data(dataset_ref, table_id):
             #os._exit(0)
         #print(row.event_name, row.event_date, row.event_timestamp, row.user_id, row.app_info)
     print n
-client = bigquery.Client(project='magicmusic-1517832888216')
+ga_proejct_id = 'xxxxxx'
+client = bigquery.Client(project=ga_proejct_id)
 datasets = list(client.list_datasets())
 project = client.project
 
