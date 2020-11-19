@@ -1,0 +1,5 @@
+###### Requirements without Version Specifiers ######
+
+gspread
+oauth2client
+google-cloud-bigquery
